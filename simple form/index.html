@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Survey Form</title>
+  </head>
+
+  <body>
+    <h1 id="title">Best Games of All time</h1>
+    <p id="description">The top games you've ever played.</p>
+    <form id="survey-form">
+      <label id="name-label">Your Gamertag</label>
+      <input id="name" required placeholder="John Doe" />
+      <label id="email-label">Your Email Address</label>
+      <input id="email" type="email" required placeholder="email@email.com"/>
+      <label id="number-label"> Your Account level</label>
+      <input id="number" type="number" min="1" max="1000" placeholder="26"/>
+      <legend>How would you rank your gameplay level</legend>
+      <select name="dropdown" id="dropdown">
+            <option value="noob">Noob</option>
+            <option value="experienced">Experienced</option>
+            <option value="good">Good</option>
+            <option value="professional">Professional</option>
+          </select>
+      <legend>Was this your first event with us?</legend>
+          <label for="yes-option">Yes</label>
+          <input id="yes-option" type="radio" name="first-event" value="1"/>
+          <label for="no-option">No</label>
+          <input id="no-option" type="radio" name="first-event" value="0" />
+          <legend>How would you rate your event experience?</legend>
+            <label for="bad">Bad</label>
+          <input
+            type="checkbox"
+            id="bad"
+            name="bad"
+            value="bad"
+          />
+
+          <label for="good">Good</label>
+          <input type="checkbox" 
+          id="good" 
+          name="good" 
+          value="good" 
+          />
+
+          <label for="best">The Best Ever</label>
+          <input
+            checked
+            type="checkbox"
+            id="best"
+            name="best"
+            value="best"
+          />
+        <legend>Any thing else you'd like to comment to the team?</legend>
+        <textarea
+        cols="30"
+        rows="15"
+        name="comments"
+        id="comments"
+        ></textarea>
+        <button type="submit" id="submit">Submit</button>  
+    </form>
+  </body>
+</html>
