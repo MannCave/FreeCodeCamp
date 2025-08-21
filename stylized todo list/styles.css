@@ -1,0 +1,15 @@
+a {
+  text-decoration: none;
+}
+a:hover {
+  color: red;
+}
+a:active {
+  color: pink;
+}
+a:focus{
+  outline: purple;
+}
+a:visited{
+  color: black;
+}
