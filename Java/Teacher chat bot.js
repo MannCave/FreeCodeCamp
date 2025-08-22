@@ -27,5 +27,17 @@ console.log(`Here is an example of accessing the second letter in the word ${sub
 console.log(subject[1]);
 
 console.log(`Here is an example of accessing the last letter in the word ${subject}.`);
-const lastCharacter = subject[subject.length - 1] ;
+
+const lastCharacter = subject[subject.length - 1];
 console.log(lastCharacter);
+
+const learningIsFunSentence = "Learning is fun.";
+
+console.log("Here are examples of finding the positions of substrings in the sentence.");
+
+console.log(learningIsFunSentence.indexOf("Learning"));
+
+console.log(learningIsFunSentence.indexOf("fun"));
+console.log(learningIsFunSentence.indexOf("learning"));
+
+console.log("I hope you enjoyed learning today.")
