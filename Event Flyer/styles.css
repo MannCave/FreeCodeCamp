@@ -1,0 +1,32 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  margin: 0 auto;
+  width: 80vw; /* relative to viewport width */
+  min-height: calc(100vh - 100px); /* viewport height - top + bottom padding */
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+header img {
+  max-width: 100%;
+  height: auto;
+}
+
+header h1 {
+  margin: 20px 0;
+}
+
+main {
+  margin-top: 30px;
+}
+
+section {
+  width: 80%;
+  margin: 20px auto;
+}
+
+hr {
+  width: 90%;
+  margin: 30px auto;
+}
